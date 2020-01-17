@@ -3,7 +3,6 @@ require "pry"
 class Dog
   @@all = []
   attr_accessor :name, :save
-  binding.pry
 
   def initialize(name)
     @name = name
